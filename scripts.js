@@ -41,13 +41,13 @@ const playTheGame = (human, machine) => {
         humanScoreNumber++
         humanScore.innerHTML = humanScoreNumber
         result.innerHTML = "Você ganhou!"
-         document.getElementById("cor").style.color = "rgb(254, 144, 0)"
+        document.getElementById("cor").style.color = "rgb(254, 144, 0)"
     } else {
         machineScoreNumber++
         machineScore.innerHTML = machineScoreNumber
         result.innerHTML = "Você perdeu para a Alexa!"
         document.getElementById("cor").style.color = "rgb(134, 40, 6)"
-    } 
-   
-  
+    }
+
+
 }

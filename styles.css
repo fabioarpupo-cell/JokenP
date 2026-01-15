@@ -60,6 +60,7 @@ p {
     margin-bottom: 10px;
     background-color: white;
     padding: 5px;
+    border-radius: 7px;
 }
 
 .your-score span {
